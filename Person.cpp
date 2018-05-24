@@ -16,3 +16,4 @@ const string& string::operator += (const string& a)
   delete temp;
   return *this;
 }
+//呵呵呵呵
