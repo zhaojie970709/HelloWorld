@@ -4,8 +4,6 @@ const string& string::operator + (const string& a ,const string& b)
   rep = new char[len+1];
   strcpy(rep,a);
   strcat(rep,b);
-  delete rep;
-  rep = nullptr;
   return *this;
 }
 const string& string::operator += (const string& a)
